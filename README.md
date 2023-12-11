@@ -7,6 +7,7 @@ Simple golang server for creating requests, retrieving/uploading files, etc.
 ```bash
 go run ./cmd/golang-server-example # setup and run server
 go run ./cmd/golang-server-example --directory files # run server that points to local files (useful for POST files request)
+go run ./cmd/golang-server-example --simple # run server with specific handler package (net/http go package on FALSE, hand built request parsing on TRUE) 
 ```
 
 ```bash
